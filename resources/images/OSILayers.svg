@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1383px" height="1203px" viewBox="0 0 1383 1203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Application-Layer" font-family="CenturyGothic, Century Gothic" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="134" y="74">Application Layer</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+            <text id="7" font-family="CenturyGothic, Century Gothic" font-size="30" font-weight="normal" fill="#FF4F37">
+                <tspan x="12" y="31">7</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 179.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Presentation-Layer" font-family="CenturyGothic, Century Gothic" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="127" y="74">Presentation Layer</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+            <text id="6" font-family="CenturyGothic, Century Gothic" font-size="30" font-weight="normal" fill="#FF4F37">
+                <tspan x="12" y="31">6</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 358.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Session-Layer" font-family="CenturyGothic, Century Gothic" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="175" y="74">Session Layer</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+            <text id="5" font-family="CenturyGothic, Century Gothic" font-size="30" font-weight="normal" fill="#FF4F37">
+                <tspan x="12" y="32">5</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 537.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Transport-Layer" font-family="CenturyGothic, Century Gothic" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="157" y="74">Transport Layer</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+            <text id="4" font-family="CenturyGothic, Century Gothic" font-size="30" font-weight="normal" fill="#FF4F37">
+                <tspan x="12" y="31">4</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 716.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Network-Layer" font-family="CenturyGothic, Century Gothic" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="163" y="74">Network Layer</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+            <text id="3" font-family="CenturyGothic, Century Gothic" font-size="30" font-weight="normal" fill="#FF4F37">
+                <tspan x="12" y="31">3</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 895.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Data-Link-Layer" font-family="CenturyGothic, Century Gothic" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="155" y="74">Data Link Layer</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+            <text id="2" font-family="CenturyGothic, Century Gothic" font-size="30" font-weight="normal" fill="#FF4F37">
+                <tspan x="12" y="31">2</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 1074.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Physical-Layer" font-family="CenturyGothic, Century Gothic" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="166" y="74">Physical Layer</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+            <text id="1" font-family="CenturyGothic, Century Gothic" font-size="30" font-weight="normal" fill="#FF4F37">
+                <tspan x="12" y="31">1</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(626.000000, 38.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(82.307692, 27.000000) rotate(90.000000) translate(-82.307692, -27.000000) " points="82.3076923 2.07692308 109.057692 51.9230769 55.5576923 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="57.8725962" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(626.000000, 217.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(82.307692, 27.000000) rotate(90.000000) translate(-82.307692, -27.000000) " points="82.3076923 2.07692308 109.057692 51.9230769 55.5576923 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="57.8725962" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(626.000000, 396.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(82.307692, 27.000000) rotate(90.000000) translate(-82.307692, -27.000000) " points="82.3076923 2.07692308 109.057692 51.9230769 55.5576923 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="57.8725962" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(626.000000, 575.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(82.307692, 27.000000) rotate(90.000000) translate(-82.307692, -27.000000) " points="82.3076923 2.07692308 109.057692 51.9230769 55.5576923 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="57.8725962" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(626.000000, 754.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(82.307692, 27.000000) rotate(90.000000) translate(-82.307692, -27.000000) " points="82.3076923 2.07692308 109.057692 51.9230769 55.5576923 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="57.8725962" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(626.000000, 933.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(82.307692, 27.000000) rotate(90.000000) translate(-82.307692, -27.000000) " points="82.3076923 2.07692308 109.057692 51.9230769 55.5576923 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="57.8725962" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(626.000000, 1112.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(82.307692, 27.000000) rotate(90.000000) translate(-82.307692, -27.000000) " points="82.3076923 2.07692308 109.057692 51.9230769 55.5576923 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="57.8725962" height="18.9519231"></rect>
+        </g>
+        <text id="Network-Processes-to" font-family="CenturyGothic-Bold, Century Gothic" font-size="36" font-weight="bold" fill="#343434">
+            <tspan x="784" y="79">Network Processes to Applications</tspan>
+        </text>
+        <text id="Data-Representation" font-family="CenturyGothic-Bold, Century Gothic" font-size="36" font-weight="bold" fill="#343434">
+            <tspan x="784" y="258">Data Representation</tspan>
+        </text>
+        <text id="Interhost-Communicat" font-family="CenturyGothic-Bold, Century Gothic" font-size="36" font-weight="bold" fill="#343434">
+            <tspan x="784" y="437">Interhost Communications</tspan>
+        </text>
+        <text id="End-to-end-Connectio" font-family="CenturyGothic-Bold, Century Gothic" font-size="36" font-weight="bold" fill="#343434">
+            <tspan x="784" y="616">End-to-end Connections</tspan>
+        </text>
+        <text id="Address-and-Best-Pat" font-family="CenturyGothic-Bold, Century Gothic" font-size="36" font-weight="bold" fill="#343434">
+            <tspan x="784" y="795">Address and Best Path</tspan>
+        </text>
+        <text id="Access-to-Media" font-family="CenturyGothic-Bold, Century Gothic" font-size="36" font-weight="bold" fill="#343434">
+            <tspan x="784" y="974">Access to Media</tspan>
+        </text>
+        <text id="Binary-Transmission" font-family="CenturyGothic-Bold, Century Gothic" font-size="36" font-weight="bold" fill="#343434">
+            <tspan x="784" y="1153">Binary Transmission</tspan>
+            <tspan x="784" y="1197" font-size="24">(Wires, connectors, voltages, data rates)</tspan>
+        </text>
+    </g>
+</svg>

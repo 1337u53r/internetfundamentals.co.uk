@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="360px" viewBox="0 0 1280 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+<!--
+  		<style type="text/css">
+    		@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
+ 		</style>	
+-->
+	</defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="1280" height="360"></rect>
+        <text id="The-first-ever-netwo" font-family="AmericanTypewriter, American Typewriter" font-size="36" font-weight="normal" fill="#FFFFFF">
+            <tspan x="50" y="108">The first ever network of computers “ARPANET” was  created at </tspan>
+            <tspan x="50" y="150">DARPA by a team of MIT researchers. ARPANET was the first </tspan>
+            <tspan x="50" y="192">network to implement the TCP/IP protocols suite, this was the base </tspan>
+            <tspan x="50" y="234">which was further expanded into the WWW by Tim Berners Lee (at </tspan>
+            <tspan x="50" y="276">CERN).</tspan>
+        </text>
+    </g>
+</svg>

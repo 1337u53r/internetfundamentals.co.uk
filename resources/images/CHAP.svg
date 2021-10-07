@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1479px" height="666px" viewBox="0 0 1479 666" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>graphics</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 49.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Client" font-family="CenturyGothic, Century Gothic" font-size="48" font-weight="normal" fill="#FFFFFF">
+                <tspan x="221" y="77">Client</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(903.000000, 49.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Server" font-family="CenturyGothic, Century Gothic" font-size="48" font-weight="normal" fill="#FFFFFF">
+                <tspan x="217" y="77">Server</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(903.000000, 293.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Server" font-family="CenturyGothic, Century Gothic" font-size="48" font-weight="normal" fill="#FFFFFF">
+                <tspan x="217" y="77">Server</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(903.000000, 537.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Server" font-family="CenturyGothic, Century Gothic" font-size="48" font-weight="normal" fill="#FFFFFF">
+                <tspan x="217" y="77">Server</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 293.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Client" font-family="CenturyGothic, Century Gothic" font-size="48" font-weight="normal" fill="#FFFFFF">
+                <tspan x="221" y="77">Client</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 537.000000)">
+            <rect id="Rectangle" fill="#FF4F37" x="0" y="0" width="576" height="129"></rect>
+            <text id="Client" font-family="CenturyGothic, Century Gothic" font-size="48" font-weight="normal" fill="#FFFFFF">
+                <tspan x="221" y="77">Client</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(576.000000, 49.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(301.307692, 27.000000) rotate(90.000000) translate(-301.307692, -27.000000) " points="301.307692 2.07692308 328.057692 51.9230769 274.557692 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="276.872596" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(739.500000, 151.000000) scale(-1, 1) translate(-739.500000, -151.000000) translate(576.000000, 124.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(301.307692, 27.000000) rotate(90.000000) translate(-301.307692, -27.000000) " points="301.307692 2.07692308 328.057692 51.9230769 274.557692 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="276.872596" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(576.000000, 293.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(301.307692, 27.000000) rotate(90.000000) translate(-301.307692, -27.000000) " points="301.307692 2.07692308 328.057692 51.9230769 274.557692 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="276.872596" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(739.500000, 395.000000) scale(-1, 1) translate(-739.500000, -395.000000) translate(576.000000, 368.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(301.307692, 27.000000) rotate(90.000000) translate(-301.307692, -27.000000) " points="301.307692 2.07692308 328.057692 51.9230769 274.557692 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="276.872596" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(576.000000, 537.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(301.307692, 27.000000) rotate(90.000000) translate(-301.307692, -27.000000) " points="301.307692 2.07692308 328.057692 51.9230769 274.557692 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="276.872596" height="18.9519231"></rect>
+        </g>
+        <g id="Group-2" transform="translate(739.500000, 639.000000) scale(-1, 1) translate(-739.500000, -639.000000) translate(576.000000, 612.000000)" fill="#797979">
+            <polygon id="Triangle" transform="translate(301.307692, 27.000000) rotate(90.000000) translate(-301.307692, -27.000000) " points="301.307692 2.07692308 328.057692 51.9230769 274.557692 51.9230769"></polygon>
+            <rect id="Rectangle-3" x="0" y="17.1346154" width="276.872596" height="18.9519231"></rect>
+        </g>
+        <text id="1.-Ask-challenge" font-family="CenturyGothic-Bold, Century Gothic" font-size="40" font-weight="bold" fill="#FF4F37">
+            <tspan x="576" y="40">1. Ask challenge</tspan>
+        </text>
+        <text id="2.-Authenticate" font-family="CenturyGothic-Bold, Century Gothic" font-size="40" font-weight="bold" fill="#FF4F37">
+            <tspan x="590" y="284">2. Authenticate</tspan>
+        </text>
+        <text id="3.-Response" font-family="CenturyGothic-Bold, Century Gothic" font-size="40" font-weight="bold" fill="#FF4F37">
+            <tspan x="624" y="537">3. Response</tspan>
+        </text>
+    </g>
+</svg>

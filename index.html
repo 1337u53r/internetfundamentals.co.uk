@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="resources/css/stylesheet.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="resources/js/main.js" defer="defer"></script>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		
+		.mySlides {
+			display: none;
+		}
+		
+		.slideShowImage {
+			vertical-align: middle;
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 100%;
+  			position: relative;
+  			margin-top: 2%;
+			box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2)
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+			cursor: pointer;
+  			position: absolute;
+  			top: 50%;
+  			width: auto;
+  			padding: 16px;
+  			margin-top: -22px;
+  			color: white;
+  			transition: 0.5s ease;
+  			border-radius: 0 3px 3px 0;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+  			right: 0;
+  			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+  			background-color: rgba(0,0,0,0.8);
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+  			cursor: pointer;
+  			height: 15px;
+  			width: 15px;
+  			margin: 0 2px;
+  			background-color: #bbb;
+  			border-radius: 50%;
+ 			display: inline-block;
+  			transition: 0.5s ease;
+		}
+
+		.active, .dot:hover {
+  			background-color: #FF4F37;
+		}
+
+		/* Fading animation */
+		.fade {
+  			animation-name: fade;
+  			animation-duration: 1.5s;
+		}
+
+		@keyframes fade {
+  			from {opacity: .4} 
+  			to {opacity: 1}
+		}
+
+</style>
+</head>
+
+<body onLoad="loader()">
+	<div class="loader-container" id="animated-loader">
+		<div class="loaderChild loaderOne"></div>
+        <div class="loaderChild loaderTwo"></div>
+        <div class="loaderChild loaderThree"></div>
+    </div>
+	
+	<div class="navigation">
+		<div id="topNav" class="mainNav">
+			<a href="index.html" class="mainItem" style="border-bottom: 0px; text-align: left;">INTERNETFUNDAMENTALS.CO.UK</a>
+  			<a class="items" href="HTML/index.html">HTML BASICS</a>
+  			<a class="items" href="CSS/index.html">CSS BASICS</a>
+  			<a class="items" href="JS/index.html">JS BASICS</a>
+  			<a class="items" href="MTA/index.html">MTA 98-375</a>
+  			<a class="items" href="internet/index.html">INTERNET TECHNOLOGIES</a>
+  			<a class="items" href="security/index.html">SECURITY</a>
+  			<a class="items" href="accessibility/index.html">ACCESSIBILITY</a>
+ 	 		<a class="items" href="SEO/index.html">SEO</a>
+  			<a href="javascript:void(0);" style="font-size:15px; border-bottom: 0px; color: white;" class="icon" onclick="switchToResponsiveMode()">&#9776;</a>
+			
+			<div class="contact-container">
+  				<form action="contact/index.html">
+					<button class="contact-button"><i class="fa fa-envelope"></i> Contact</button>
+				</form>
+  			</div>
+  
+		</div>
+	
+		<ul id="menuNav">
+			<li><a href="HTML/index.html"><i class="fa fa-html5" aria-hidden="true"></i> HTML BASICS</a></li>
+			<li><a href="CSS/index.html"><i class="fa fa-css3" aria-hidden="true"></i> CSS BASICS</a></li>
+			<li><a href="JS/index.html"><i class="fa fa-code" aria-hidden="true"></i> JS BASICS</a></li>
+			<li><a href="MTA/index.html"><i class="fa fa-book" aria-hidden="true"></i> MTA 98-375</a></li>
+			<li><a href="internet/index.html"><i class="fa fa-cog" aria-hidden="true"></i> INTERNET TECHNOLOGIES</a></li>
+			<li><a href="security/index.html"><i class="fa fa-lock" aria-hidden="true"></i> SECURITY</a></li>
+  			<li><a href="accessibility/index.html"><i class="fa fa-universal-access" aria-hidden="true"></i> ACCESSIBILITY</a></li>
+			<li><a href="SEO/index.html"><i class="fa fa-search" aria-hidden="true"></i> SEO</a></li>
+			
+			<form action="" class="search-container">
+					<input type="text" placeholder="Search website.." name="search">
+					<button type="submit"><i class="fa fa-search"></i></button>
+   			</form>
+		</ul>
+		
+	</div>
+	
+	<div class="home-content-container">
+		<h3 id="heading">INTERESTING FACTS ABOUT THE HISTORY OF THE INTERNET</h3>	
+	</div>
+	
+	<div class="slideshow-container">
+		
+		<div class="mySlides fade">
+			<img class="slideShowImage" draggable="false" src="resources/images/factOne.svg" style="width:100%;">
+		</div>
+
+		<div class="mySlides fade">
+  			<img class="slideShowImage" draggable="false" src="resources/images/factTwo.svg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+  			<img class="slideShowImage" draggable="false" src="resources/images/factThree.svg" style="width:100%">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+  		<span class="dot" onclick="currentSlide(2)"></span> 
+  		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+	<br>
+	
+	<div class="footer">
+		<p>Copyright &copy; 2018 - Praise Mathew Johnson</p>
+	</div>
+	
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  			var i;
+  			var slides = document.getElementsByClassName("mySlides");
+  			var dots = document.getElementsByClassName("dot");
+  			if (n > slides.length) {slideIndex = 1}    
+  			if (n < 1) {slideIndex = slides.length}
+  			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+  			}
+  			for (i = 0; i < dots.length; i++) {
+      			dots[i].className = dots[i].className.replace(" active", "");
+  			}
+  			slides[slideIndex-1].style.display = "block";  
+  			dots[slideIndex-1].className += " active";
+		}	
+	</script>
+	
+</body>
+</html>

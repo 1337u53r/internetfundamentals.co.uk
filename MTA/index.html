@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>MTA 98-375</title>
+	<link href="../resources/css/stylesheet.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../resources/js/MOAC.js" defer="defer"></script>
+	<script type="text/javascript" src="../resources/js/main.js" defer="defer"></script>
+</head>
+
+<body onLoad="loader()">
+	<div class="loader-container" id="animated-loader">
+		<div class="loaderChild loaderOne"></div>
+        <div class="loaderChild loaderTwo"></div>
+        <div class="loaderChild loaderThree"></div>
+    </div>
+	
+	<div class="navigation">
+		<div id="topNav" class="mainNav">
+			<a href="../index.html" class="mainItem" style="border-bottom: 0px; text-align: left;">INTERNETFUNDAMENTALS.CO.UK</a>
+  			<a class="items" href="../HTML/index.html">HTML BASICS</a>
+  			<a class="items" href="../CSS/index.html">CSS BASICS</a>
+  			<a class="items" href="../JS/index.html">JS BASICS</a>
+  			<a class="items" href="../MTA/index.html">MTA 98-375</a>
+  			<a class="items" href="../internet/index.html">INTERNET TECHNOLOGIES</a>
+  			<a class="items" href="../security/index.html">SECURITY</a>
+  			<a class="items" href="../accessibility/index.html">ACCESSIBILITY</a>
+ 	 		<a class="items" href="../SEO/index.html">SEO</a>
+  			<a href="javascript:void(0);" style="font-size:15px; border-bottom: 0px;" class="icon" onclick="switchToResponsiveMode()">&#9776;</a>
+  
+  			<div class="contact-container">
+  				<form action="../contact/index.html">
+					<button class="contact-button"><i class="fa fa-envelope"></i> Contact</button>
+				</form>
+  			</div>
+  
+		</div>
+	
+		<ul id="menuNav">
+			<li><a href="../HTML/index.html"><i class="fa fa-html5" aria-hidden="true"></i> HTML BASICS</a></li>
+			<li><a href="../CSS/index.html"><i class="fa fa-css3" aria-hidden="true"></i> CSS BASICS</a></li>
+			<li><a href="../JS/index.html"><i class="fa fa-code" aria-hidden="true"></i> JS BASICS</a></li>
+			<li><a class="active" href="index.html"><i class="fa fa-book" aria-hidden="true"></i> MTA 98-375</a></li>
+			<li><a href="../internet/index.html"><i class="fa fa-cog" aria-hidden="true"></i> INTERNET TECHNOLOGIES</a></li>
+			<li><a href="../security/index.html"><i class="fa fa-lock" aria-hidden="true"></i> SECURITY</a></li>
+  			<li><a href="../accessibility/index.html"><i class="fa fa-universal-access" aria-hidden="true"></i> ACCESSIBILITY</a></li>
+			<li><a href="../SEO/index.html"><i class="fa fa-search" aria-hidden="true"></i> SEO</a></li>
+		
+			<form action="" class="search-container">
+					<input type="text" placeholder="Search website.." name="search">
+					<button type="submit"><i class="fa fa-search"></i></button>
+   			</form>
+			
+		</ul>
+	
+	</div>
+	
+	<div class="content">
+		<!-- class="sideNavActiveChildItem" style="color:#797979;"  -->
+		<aside class="sideNav">
+			<a class="sideNavParentItem" onclick="return false;"><b>Introduction</b></a>
+			<a class="sideNavActiveChildItem" href="index.html" onClick="pageIntroduction()">What is the MTA 98-375 Certification?</a>
+			<hr class="hr">	
+			<a class="sideNavParentItem" onclick="return false;"><b>Lesson 1: Managing the Application Life Cycle</b></a>
+			<a class="sideNavChildItem" href="../index.html">Understanding Platform Fundamentals</a>
+			<a class="sideNavChildItem" href="../index.html">Understanding &amp; Managing
+			Application States</a>
+			<a class="sideNavChildItem" href="../index.html">Understanding Touch Interfaces &amp; Gestures</a>
+			<a class="sideNavChildItem" href="../index.html">Debugging &amp; Testing HTML5 Apps</a>
+			<a class="sideNavChildItem" href="../index.html">Publishing an Application to a Store</a>
+			<hr class="hr">
+			<a class="sideNavParentItem" onclick="return false;"><b>Lesson 2: Building the User Interface by Using HTML5: Text, Graphics &amp; Media</b></a>
+			<a class="sideNavChildItem" href="../index.html">Understanding the Essentials of HTML</a>
+			<a class="sideNavChildItem" href="../index.html">Choosing &amp; Configuring HTML5 Tags to Display Text Content</a>
+			<a class="sideNavChildItem" href="../index.html">Choosing &amp; Configuring HTML5 Tags to Display Graphics</a>
+			<a class="sideNavChildItem" href="../index.html">Choosing &amp; Configuring HTML5 Tags to Play Media</a>
+			<hr class="hr">
+        	<a class="sideNavParentItem" href="index.html"><b>Lesson 3: Building the User Interface by Using HTML5: Organization, Input &amp; Validation</b></a>
+			<a class="sideNavChildItem" href="../index.html">Choosing &amp; Configuring HTML5 Tags to Organize Content &amp; Forms</a>
+			<a class="sideNavChildItem" href="../index.html">Choosing &amp; Configuring HTML5 Tags for Input and Validation</a>
+			<hr class="hr">
+        	<a class="sideNavParentItem" href="../Section3/index.html"><b>Lesson 4: Understanding CSS Essentials: Content Flow, Positioning &amp; Styling</b></a>
+			<a class="sideNavChildItem" href="../index.html">Understanding CSS Essentials</a>
+			<hr class="hr">
+			<a class="sideNavParentItem" href="../Section3/index.html"><b>Lesson 5: Understanding CSS Essentials: Layouts</b></a>
+			<a class="sideNavChildItem" href="../index.html">Arranging User Interface (UI) Content
+			by Using CSS</a>
+			<a class="sideNavChildItem" href="../index.html">Using a Flexible Box to Establish Content Alignment &amp; Direction</a>
+			<a class="sideNavChildItem" href="../index.html">Using Grid Layouts to Establish Content Alignment &amp; Direction</a>
+			<hr class="hr">
+			<a class="sideNavParentItem" href="../Section3/index.html"><b>Lesson 6: Managing Text Flow by Using CSS</b></a>
+			<a class="sideNavChildItem" href="../index.html">Managing the Flow of Text Content by Using CSS</a>
+			<a class="sideNavChildItem" href="../index.html">Using Regions to Flow Text Content between Multiple Sections</a>
+			<hr class="hr">
+			<a class="sideNavParentItem" href="../Section3/index.html"><b>Lesson 7: Managing the Graphical Interface by Using CSS</b></a>
+			<a class="sideNavChildItem" href="../index.html">Managing the Graphical Interface with CSS</a>
+			<hr class="hr">
+			<a class="sideNavParentItem" href="../Section3/index.html"><b>Lesson 8: Understanding JavaScript and Coding Essentials</b></a>
+			<a class="sideNavChildItem" href="../index.html">Managing &amp; Maintaining JavaScript</a>
+			<a class="sideNavChildItem" href="../index.html">Updating the UI by Using JavaScript </a>
+			<hr class="hr">
+			<a class="sideNavParentItem" href="../Section3/index.html"><b>Lesson 9: Creating Animations, Working with Graphics &amp; Accessing Data</b></a>
+			<a class="sideNavChildItem" href="../index.html">Coding Animations by Using JavaScript</a>
+			<a class="sideNavChildItem" href="../index.html">Working with Images, Shapes &amp; Other Graphics</a>
+			<a class="sideNavChildItem" href="../index.html">Sending &amp; Receiving Data</a>
+			<a class="sideNavChildItem" href="../index.html">Loading &amp; Saving Files</a>
+			<a class="sideNavChildItem" href="../index.html">Using JavaScript to Validate User Form Input</a>
+			<a class="sideNavChildItem" href="../index.html">Understanding &amp; Using Cookies</a>
+			<a class="sideNavChildItem" href="../index.html">Understanding &amp; Using Local Storage</a>
+			<hr class="hr">
+			<a class="sideNavParentItem" href="../Section3/index.html"><b>Lesson 10: JavaScript Coding for the Touch Interface, Device &amp; Operating System Resources</b></a>
+			<a class="sideNavChildItem" href="../index.html">Responding to the Touch Interface</a>
+			<a class="sideNavChildItem" href="../index.html">Coding Additional HTML5 APIs</a>
+			<a class="sideNavChildItem" href="../index.html">Accessing Device &amp; Operating System Resources</a>
+    	</aside>
+	
+		<div class="content-container" >
+			<h3>What is the MTA 98-375 Certification?</h3>
+			<p>The MTA 98-375 is a Microsoft certification aimed at teaching beginners all about HTML5, CSS3 and JavaScript. The course consists of ten modules and was designed to give aspiring web developers a basic understanding of web technologies such as HTML, CSS and JavaScript. Students are required to spend at least 4 hours watching the offical Microsoft MVA (Microsoft Virtual Academy) course videos however this is excluding time spent in labs, asssessments and knowledge tests (quizes). This section of the website will provide all necessary information required to sucessfully pass the MTA. 
+			</p>
+			<b>Modules Taught:</b>
+			<ol>
+				<li>The Application Lifecycle</li>
+				<li>Building the User Interface, Part 1</li>
+				<li>Building the User Interface, Part 2</li>
+				<li>CSS Essentials, Part 1</li>
+				<li>CSS Essentials, Part 2</li>
+				<li>Managing Text Flow by Using CSS</li>
+				<li>Managing the Graphical Interface by Using CSS</li>
+				<li>Understanding JavaScript and Coding Essentials</li>
+				<li>Creating Animations, Working with Graphics, and Accessing Data</li>
+				<li>JavaScript Coding for the Touch Interface</li>
+			</ol>
+		</div>
+	
+	</div>
+	
+	<div class="footer">
+		<p>Copyright &copy; 2018 - Praise Mathew Johnson</p>
+	</div>
+	
+	<script>
+		window.onscroll = function() {
+			"use strict";
+			setNavBarPosition();
+		};
+		
+		var navBar = document.getElementById("menuNav");
+		var stickyBar = navBar.offsetTop;
+	</script>
+</body>
+</html>
